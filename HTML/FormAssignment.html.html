@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Form 
+	</title>
+</head>
+<body>
+
+	<h1>Registration Form</h1>
+	<form >
+		<div>
+			<label for="first-name">First Name:</label>
+			<input type="first-name" name="first-name" id="first-name" placeholder="first-name" required />
+
+			<label for="last-name">Last Name:</label>
+			<input type="last-name" name="last-name" id="last-name" placeholder="last-name" required />
+		</div>
+		
+
+
+		   <div>
+        <label for="radio-choice-1">Male</label>
+        <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
+
+        <label for="radio-choice-2">Female</label>
+        <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
+
+       <label for="radio-choice-3">Other</label>
+        <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3" />
+     </div>
+
+
+
+
+
+
+
+
+		<div>
+
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="Enter email" required/>
+
+			<label for ="password">Password:</label>
+			<input type="password" name="password" id="password" pattern=".{5,10}"" placeholder="password" required title ="password between 5 to 10" />
+
+
+		</div>
+
+		<div>
+			<label>Birthday: </label>
+			<select>
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				
+			</select>
+
+
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+
+			<select>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			</select>
+
+		</div>
+
+
+		<div>
+			<label for="checkbox">I agree to the terms and conditions.</label>
+			<input type="checkbox" id="checkbox" name="checkbox" />
+		</div>
+
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
